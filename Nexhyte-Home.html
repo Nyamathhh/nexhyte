@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.Nexhyte.us/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Nexhyte-files/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./Nexhyte-files/animate.min.css">
+    <link rel="stylesheet" href="./Nexhyte-files/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="./Nexhyte-files/style.css">
+    <link rel="icon" href="https://www.Nexhyte.us/assets/img/favicon.svg" type="image/png" sizes="16x16">
+    <title>Nexhyte – Virtual agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Nexhyte-files/css2" rel="stylesheet">
+    <link href="./Nexhyte-files/css2(1)" rel="stylesheet">
+    <link href="./Nexhyte-files/css2(2)" rel="stylesheet">
+    <link rel="stylesheet" href="./Nexhyte-files/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./Nexhyte-files/aos.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <nav class="navbar bg-white w-full fixed top-0 left-0 text-black h-[70px] md:h-[100px] flex items-center !z-[100] shadow-sm">
+      <div class="container">
+        <div class="flex items-center justify-between w-full py-4">
+          <a class="flex shrink-0 w-[140px] md:w-[200px]" href="https://www.Nexhyte.us/index.html">
+            <img src="./Nexhyte-files/logo1.jpeg" alt="Nexhyte logo">
+          </a>
+          <div class="flex items-center gap-2 toggler xl:hidden pointer">
+            <a href="https://www.Nexhyte.us/#contact" class="flex bg-[#F31474] shrink-0 py-2 px-3 text-white items-center text-xs text-center rounded-[50px] w-fit gap-2">
+              <span>Book a Demo</span></a>
+            <span class="px-2"><i class="fa fa-bars menu-toggler"></i></span>
+          </div>
+          <div class="items-center hidden gap-14 xl:flex">
+            <ul class="flex text-lg gap-x-10 font-nunito">
+              <li class="nav-item hover:!text-primary">
+                <a class="flex gap-x-2.5 hover:!text-primary" aria-current="page" href="https://www.Nexhyte.us/#home">Home</a>
+              </li>
+              <li class="nav-item hover:!text-primary">
+                <a class="flex gap-x-2.5 hover:!text-primary" aria-current="page" href="https://www.Nexhyte.us/#platform">Platform</a>
+              </li>
+              <li class="nav-item hover:!text-primary">
+                <a class="flex gap-x-2.5 hover:!text-primary" href="https://www.Nexhyte.us/#modules">Modules</a>
+              </li>
+              <li class="nav-item hover:!text-primary">
+                <a class="flex gap-x-2.5 hover:!text-primary" href="https://www.Nexhyte.us/#about">About</a>
+              </li>
+              <li class="nav-item hover:!text-primary">
+                <a class="flex gap-x-2.5 hover:!text-primary" href="https://www.Nexhyte.us/#resources">Resources</a>
+              </li>
+            </ul>
+          </div>
+          <a href="https://www.Nexhyte.us/#contact" class="hidden xl:flex bg-[#F31474] text-white px-7 py-4 text-sm font-semibold items-center text-center rounded-[50px] w-fit gap-2 hover:bg-opacity-80 hover:transition-all transition-all duration-300 hover:duration-300">
+            <span>Book a Demo</span></a>
+        </div>
+
+        <!-- <partial src="mobile-menu.html"></partial> -->
+        <div class="mobile-nav w-full absolute left-0 top-[70px] bg-white z-[99999999]">
+          <ul class="flex flex-col text-sm w-full">
+            <li class="mobile-nav-item border-b border-t border-gray px-8 py-2">
+              <a href="https://www.Nexhyte.us/#home">Home</a>
+            </li>
+            <li class="mobile-nav-item border-b border-t border-gray px-8 py-2">
+              <a href="https://www.Nexhyte.us/#platform">Platform</a>
+            </li>
+            <li class="mobile-nav-item border-b border-t border-gray px-8 py-2">
+              <a href="https://www.Nexhyte.us/#modules">Modules</a>
+            </li>
+            <li class="mobile-nav-item border-b border-t border-gray px-8 py-2">
+              <a href="https://www.Nexhyte.us/#about">About</a>
+            </li>
+            <li class="mobile-nav-item border-b border-t border-gray px-8 py-2">
+              <a href="https://www.Nexhyte.us/#resources">Resources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const href = this.getAttribute("href");
+            const targetId = href.substring(href.indexOf("#") + 1);
+            const isIndexPage =
+              window.location.pathname.endsWith("index.html") ||
+              window.location.pathname === "/";
+
+            if (isIndexPage) {
+              const target = document.getElementById(targetId);
+              if (target) {
+                target.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }
+            } else {
+              window.location.href = "index.html" + href;
+            }
+          });
+        });
+      });
+    </script>
+  
+
+
+<main class="md:mt-[100px] mt-[70px]">
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 pb-0 xl:flex xl:items-center" id="platform">
+  <div class="container">
+    <div class="text-black text-sm xl:text-xl font-medium font-inter leading-normal tracking-[3px] text-center xl:py-8">
+      
+    </div>
+    <div class="mb-8 text-4xl font-medium text-center text-primary xl:text-6xl xl:mb-16">
+      Introduction to Nexhyte
+    </div>
+            <div class="text-center text-3xl md:text-5xl xl:text-7xl font-semibold xl:leading-[82.60px] text-black ">The
+                World's
+                first <span class="gradient-text">Conventional AI Chatbot</span> 
+				<br class="sm:block hidden"><br class="sm:block hidden">
+                </div>
+
+    <div class="text-black text-sm xl:text-xl font-medium font-inter leading-normal tracking-[3px] text-center xl:py-8">
+Virtual Agent Software Delivers the Experience Customers Want
+Automate routine and repetitive tasks with Nexhyte Intelligent Virtual Agent so your live agents can focus on higher value work. Nexhyte IVA uses practical AI technology to understand what customers want and provide it quickly—without the use of a human agent.
+    </div>
+
+    <div class="tj-video-section rounded-[30px] w-full wow fadeInUp relative" style="visibility: visible; animation-name: fadeInUp;">
+      <img src="./Nexhyte-files/bot-2.svg" class="absolute bottom-0 z-10 hidden -left-4 xl:block shake-y w-60">
+
+      <div class="text-center tj-video-area">
+        <div class="tj-video-popup">
+          <div class="circle pulse video-icon">
+
+            <div id="video-modal" class="w-full" style="display: none;">
+              <div class="fixed inset-0 flex items-center justify-center z-[99999]" style="background: rgba(0, 0, 0, 0.9)">
+                <div class="absolute top-0 right-0">
+                  <div class="m-4">
+                    <button class="text-white font-bold px-4 py-2 rounded-full hover:bg-[#ff6e0b] bg-[#0000004D] shadow-xl close-video">
+                      X
+                    </button>
+                  </div>
+                </div>
+                <div class="w-full h-full flex justify-center items-center">
+                  <div class="pop-video-content w-full" style="margin: 0px 16px">
+                    <iframe src="./Nexhyte-files/941150484.html" width="100%" maxwidth="1000px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" class="h-[30vh] md:h-[50vh] xl:h-[65vh]"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const playButton = document.getElementById("play-button");
+  const videoModal = document.getElementById("video-modal");
+  const closeBtn = document.querySelector(".close-video");
+  const videoFrame = document.querySelector("#video-modal iframe");
+  const outerVideoRef = document.getElementById("outer-videoRef");
+
+  playButton.addEventListener("click", function () {
+    videoModal.style.display =
+      videoModal.style.display === "none" ? "block" : "none";
+
+    videoFrame.contentWindow.postMessage('{"method":"play"}', "*");
+  });
+
+  closeBtn.addEventListener("click", function () {
+    videoModal.style.display = "none";
+    videoFrame.contentWindow.postMessage('{"method":"pause"}', "*");
+  });
+</script>
+
+
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 xl:pt-16 pt-0 xl:flex xl:items-center">
+  <div class="container">
+    <div class="w-full h-full text-center">
+      <div class="py-20 pb-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+
+        <div class="mt-4 text-center text-primary xl:text-6xl text-4xl font-medium">
+          Fewer Tickets, Better Performance
+        </div>
+	  
+        <div class="text-black text-sm xl:text-xl font-medium font-nunito leading-normal tracking-[3px]">
+			Deliver intelligent support with our AI chatbot  
+        </div>
+
+
+        <div class="text-black xl:text-2xl text-lg font-normal font-nunito xl:mt-16 mt-8">
+          Connects seamlessly with Contact Center and leading CRM providers like Zendesk and ServiceNow. <br class="sm:block hidden">
+          Answers questions and handles requests without involving a live agent, so your team can focus on more complex issues.<br><br>
+        </div>
+      </div>
+
+      <div class="relative xl:h-[25rem]">
+        <div class="grid-cols-1 xl:grid-cols-5 w-full h-full items-center mt-4 wow fadeInUp relative xl:grid hidden" style="visibility: visible; animation-name: fadeInUp;">
+          <div class="xl:col-span-3 rounded-[26px] p-8 text-center h-full -mr-4" style="
+              background: linear-gradient(
+                90deg,
+                rgba(255, 231, 244, 0.29) 1.97%,
+                #ffeefd 117.63%
+              );
+            ">
+            <div class="w-fit p-2 px-8 bg-pink-200 rounded-[55px] flex-col justify-center items-center gap-2.5 inline-flex">
+              <div class="text-center text-pink-700 text-base font-bold font-nunito">
+                PRE PRODUCTION
+              </div>
+            </div>
+          </div>
+          <div class="xl:col-span-2 rounded-[26px] p-8 text-center h-full -ml-4" style="
+              background: linear-gradient(
+                90deg,
+                rgba(225, 247, 231, 0.3) 0%,
+                rgba(224, 242, 232, 0.97) 109.63%
+              );
+            ">
+            <div class="w-fit p-2 px-8 bg-[#DEF3E0] rounded-[55px] flex-col justify-center items-center gap-2.5 inline-flex">
+              <div class="text-center text-[#207346] text-base font-bold font-nunito">
+                PRODUCTION
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 xl:grid-cols-4 w-full gap-4 items-center wow fadeInUp xl:absolute bottom-8 xl:mb-4 xl:px-16" style="visibility: visible; animation-name: fadeInUp;">
+          <div class="flex flex-col w-full h-fit items-center justify-center bg-white rounded-[32px] border border-neutral-200 transition-all hover:transition-all hover:border-[#D9C4E0] hover:cursor-pointer p-8 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="relative">
+              <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+              <img src="./Nexhyte-files/offer-4.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+            </div>
+            <div class="text-center text-primary text-xl font-medium mt-6">
+              BotFlows
+            </div>
+          </div>
+
+          <div class="flex flex-col w-full h-fit items-center justify-center bg-white rounded-[32px] border border-neutral-200 transition-all hover:transition-all hover:border-[#D9C4E0] hover:cursor-pointer p-8 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <div class="relative">
+              <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+              <img src="./Nexhyte-files/offer-3.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+            </div>
+            <div class="text-center text-primary text-xl font-medium mt-6">
+              Intent Management
+            </div>
+          </div>
+
+          <div class="flex flex-col w-full h-fit items-center justify-center bg-white rounded-[32px] border border-neutral-200 transition-all hover:transition-all hover:border-[#D9C4E0] hover:cursor-pointer p-8 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="relative">
+              <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+              <img src="./Nexhyte-files/offer-5.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+            </div>
+            <div class="text-center text-primary text-xl font-medium mt-6">
+              AI Engineering
+            </div>
+          </div>
+
+          <div class="flex flex-col w-full h-fit items-center justify-center bg-white rounded-[32px] border border-neutral-200 transition-all hover:transition-all hover:border-[#D9C4E0] hover:cursor-pointer p-8 wow fadeInUp" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+            <div class="relative">
+              <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+              <img src="./Nexhyte-files/offer-6.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+            </div>
+            <div class="text-center text-primary text-xl font-medium mt-6">
+              CRM Integrations
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class=" !bg-no-repeat !bg-right relative py-16 xl:flex xl:items-center">
+    <div class="container">
+
+        <div class="text-center">
+            <div class="text-black text-sm xl:text-xl font-medium  leading-normal tracking-[3px] mb-8 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">OUR
+                OFFERINGS
+            </div>
+            <div class="text-center text-primary xl:text-6xl text-4xl font-medium leading-tight mb-16 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">The
+                best in class
+                Offerings
+                <br class="sm:block hidden"> for
+                Chatbots
+            </div>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 w-full gap-4 xl:gap-x-36 items-center rounded-[35px] py-12 p-8 xl:w-9/12 xl:mx-auto " style="background: linear-gradient(0deg, rgba(244, 225, 247, 0.15) 29.8%, #F0DFF3 127.5%);">
+                <div class="flex flex-col w-full h-full items-center xl:items-end justify-center xl:justify-end ">
+                    <img src="./Nexhyte-files/offer-1.svg" alt="">
+                    <div class="text-center text-primary text-xl xl:text-2xl font-medium leading-9 mt-4 xl:mt-8">Chat widget</div>
+                </div>
+                <div class="flex flex-col w-full h-full items-center xl:items-start justify-center xl:justify-start ">
+                    <img src="./Nexhyte-files/offer-2.svg" alt="">
+                    <div class="text-center text-primary text-xl xl:text-2xl font-medium leading-9 mt-4 xl:mt-8">AI Companion
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <section class="!bg-no-repeat !bg-right relative xl:flex xl:flex-col xl:items-center pb-16" id="coming-soon">
+    <div class="container">
+
+        <div class="text-center">
+            <div class="mb-6 px-[11px] py-[3px] bg-gradient-to-l from-fuchsia-400 via-purple-900 to-pink-500 rounded-md justify-center items-center gap-[26px] inline-flex wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="text-center text-white text-sm xl:text-lg font-bold font-nunito leading-normal">MORE ON THE
+                    WAY</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="swiper flex w-full h-full gap-4 items-center mt-20 coming-soon swiper-initialized swiper-horizontal swiper-autoheight swiper-backface-hidden">
+        <div class="swiper-wrapper h-full" id="swiper-wrapper-243d895568dae196" aria-live="off" style="transition-duration: 1600ms; transform: translate3d(-1611.75px, 0px, 0px); height: 241px;">
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+        <div class="swiper-slide flex flex-col w-fit h-full items-center justify-center bg-gray rounded-[32px] p-8 px-12 swiper-slide-visible swiper-slide-fully-visible" role="group" aria-label="6 / 6" style="width: 430.5px; margin-right: 30px;" data-swiper-slide-index="5">
+                <div class="relative">
+                    <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+                    <img src="./Nexhyte-files/coming-6.png" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+
+                </div>
+                <div class="text-center text-black text-xl font-medium mt-6">Knowledge Management</div>
+            </div><div class="swiper-slide flex flex-col w-fit h-full items-center justify-center bg-gray rounded-[32px] p-8 px-12" role="group" aria-label="1 / 6" style="width: 430.5px; margin-right: 30px;" data-swiper-slide-index="0">
+                <div class="relative">
+                    <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+                    <img src="./Nexhyte-files/coming-1.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+
+                </div>
+                <div class="text-center text-black text-xl font-medium mt-6">Service Virtualization</div>
+            </div><div class="swiper-slide flex flex-col w-fit h-full items-center justify-center bg-gray rounded-[32px] p-8 px-12" role="group" aria-label="2 / 6" style="width: 430.5px; margin-right: 30px;" data-swiper-slide-index="1">
+                <div class="relative">
+                    <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+                    <img src="./Nexhyte-files/coming-2.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+
+                </div>
+                <div class="text-center text-black text-xl font-medium mt-6">Performance Testing</div>
+            </div><div class="swiper-slide flex flex-col w-fit h-full items-center justify-center bg-gray rounded-[32px] p-8 px-12 swiper-slide-prev" role="group" aria-label="3 / 6" style="width: 430.5px; margin-right: 30px;" data-swiper-slide-index="2">
+                <div class="relative">
+                    <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+                    <img src="./Nexhyte-files/coming-3.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+
+                </div>
+                <div class="text-center text-black text-xl font-medium mt-6">Continuous
+                    Verification</div>
+            </div><div class="swiper-slide flex flex-col w-fit h-full items-center justify-center bg-gray rounded-[32px] p-8 px-12 swiper-slide-active" role="group" aria-label="4 / 6" style="width: 430.5px; margin-right: 30px;" data-swiper-slide-index="3">
+                <div class="relative">
+                    <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+                    <img src="./Nexhyte-files/coming-4.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+
+                </div>
+                <div class="text-center text-black text-xl font-medium mt-6">Predictive Capacity Management</div>
+            </div><div class="swiper-slide flex flex-col w-fit h-full items-center justify-center bg-gray rounded-[32px] p-8 px-12 swiper-slide-visible swiper-slide-next" role="group" aria-label="5 / 6" style="width: 430.5px; margin-right: 30px;" data-swiper-slide-index="4">
+                <div class="relative">
+                    <img src="./Nexhyte-files/offer-circle.svg" alt="" class="">
+                    <img src="./Nexhyte-files/coming-5.svg" alt="" class="absolute inset-0 m-auto flex items-center justify-center">
+
+                </div>
+                <div class="text-center text-black text-xl font-medium mt-6">Auto
+                    Remediation</div>
+            </div></div>
+
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+</section>
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 xl:flex xl:items-center" id="modules">
+    <div class="container">
+
+        <div class="text-center">
+            <div class="text-black text-sm xl:text-xl font-medium  leading-normal tracking-[3px] mb-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                CAPABILITIES
+            </div>
+            <div class="text-4xl font-medium leading-tight text-center text-primary xl:text-6xl wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Nexhyte
+                Modules
+            </div>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 h-full xl:items-center gap-8 xl:gap-20 w-full mt-20 bg-gray p-8 xl:p-20 xl:py-8 rounded-[32px]">
+                <div class="order-2 text-left xl:order-1">
+                    <img src="./Nexhyte-files/offer-4.svg" class="mb-8">
+                    <div class="mb-10 text-2xl font-semibold text-black">AI Driven ChatBot for Automated Customer Experience</div>
+                    <div class="text-lg font-normal leading-7 text-black">In the fast-evolving world of customer service, businesses need to deliver personalized and seamless experiences across multiple touchpoints. Leveraging artificial intelligence, Nexhyte’s AI-Driven Chatbot is designed to automate and enhance the entire customer journey, from initial inquiries to post-purchase support. This advanced chatbot solution streamlines customer interactions, boosts operational efficiency, and drives customer satisfaction, all while minimizing human intervention.</div>
+
+                    <button id="openModal" class="flex items-center gap-2 py-3 mt-10 text-sm font-semibold text-center text-white transition-all duration-300 bg-black px-7 rounded-xl w-fit hover:bg-opacity-80 hover:transition-all hover:duration-300">
+                        <span>Learn More</span></button>
+                </div>
+
+                <div class="relative order-1 xl:block xl:order-2">
+                    <img src="./Nexhyte-files/module-bg-1.svg" class="ml-auto">
+                    <img src="./Nexhyte-files/module-1.png" class="absolute top-0 left-0 mx-auto shake-y">
+
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 h-full xl:items-center gap-8 xl:gap-20 w-full mt-8 bg-gray p-8 xl:p-20 xl:py-8 rounded-[32px]">
+                <div class="relative xl:block ">
+                    <img src="./Nexhyte-files/module-bg-2.svg">
+                    <img src="./Nexhyte-files/module-2.png" class="absolute top-0 bottom-0 left-0 my-auto shake-y">
+
+                </div>
+
+                <div class="text-left ">
+                    <img src="./Nexhyte-files/offer-3.svg" class="mb-8">
+                    <div class="mb-10 text-2xl font-semibold text-black">Intent Management</div>
+                    <div class="text-lg font-normal leading-7 text-black">At the core of any effective AI-driven chatbot is Intent Management, the process by which the chatbot identifies the customer’s intent—what the user wants to achieve through the interaction. Using Natural Language Processing (NLP), the chatbot can understand and respond to customer queries, even if they are phrased in different ways.</div>
+                    <button id="openModal-2" class="flex items-center gap-2 py-3 mt-10 text-sm font-semibold text-center text-white transition-all duration-300 bg-black px-7 rounded-xl w-fit hover:bg-opacity-80 hover:transition-all hover:duration-300">
+                        <span>Learn More</span></button>
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 h-full xl:items-center gap-8 xl:gap-20 w-full mt-8 bg-gray p-8 xl:p-20 xl:py-8 rounded-[32px]">
+                <div class="order-2 text-left xl:order-1">
+                    <img src="./Nexhyte-files/offer-5.svg" class="mb-8">
+                    <div class="mb-10 text-2xl font-semibold text-black">AI Engineering</div>
+                    <div class="text-lg font-normal leading-7 text-black">AI Engineering refer to the conversation workflows that guide the chatbot's responses. These flows are designed to intelligently navigate user interactions based on predefined paths and dynamically generated content. By automating common customer service tasks, BotFlows significantly improve the efficiency and accuracy of customer support.</div>
+                    <button id="openModal-3" class="flex items-center gap-2 py-3 mt-10 text-sm font-semibold text-center text-white transition-all duration-300 bg-black px-7 rounded-xl w-fit hover:bg-opacity-80 hover:transition-all hover:duration-300">
+                        <span>Learn More</span></button>
+                </div>
+
+                <div class="relative order-1 xl:block xl:order-2">
+                    <img src="./Nexhyte-files/module-bg-3.svg" class="ml-auto">
+                    <img src="./Nexhyte-files/module-3.png" class="absolute top-0 bottom-0 my-auto shake-y xl:-right-20">
+
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 h-full xl:items-center gap-8 xl:gap-20 w-full mt-8 bg-gray p-8 xl:p-20 xl:py-8 rounded-[32px]">
+                <div class="relative xl:block ">
+                    <img src="./Nexhyte-files/module-bg-4.svg">
+                    <img src="./Nexhyte-files/module-4.png" class="absolute top-0 bottom-0 my-auto shake-y xl:-left-20">
+
+                </div>
+
+                <div class="text-left ">
+                    <img src="./Nexhyte-files/offer-6.svg" class="mb-8">
+                    <div class="mb-10 text-2xl font-semibold text-black">CRM Integrations</div>
+                    <div class="text-lg font-normal leading-7 text-black">Integrating the chatbot with Customer Relationship Management (CRM) systems, such as Salesforce, HubSpot, or Zoho, enables businesses to maintain a 360-degree view of their customers. This ensures that the chatbot has access to customer profiles, order histories, previous support tickets, and more, allowing for personalized and efficient interactions.
+                    </div>
+                    <button id="openModal-4" class="flex items-center gap-2 py-3 mt-10 text-sm font-semibold text-center text-white transition-all duration-300 bg-black px-7 rounded-xl w-fit hover:bg-opacity-80 hover:transition-all hover:duration-300">
+                        <span>Learn More</span></button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 xl:flex xl:items-center">
+    <div class="container">
+
+        <div class="text-center">
+            <div class="text-black text-sm xl:text-xl font-medium  leading-normal tracking-[3px] mb-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                UNIQUE
+                DIFFERENTIATORS
+            </div>
+            <div class="mb-20 text-4xl font-medium leading-tight text-center text-primary xl:text-6xl wow fadeInUp" style="visibility: hidden; animation-name: none;">Why
+                Nexhyte
+            </div>
+
+            <div class="grid items-center w-full grid-cols-1 gap-6 mb-6 xl:grid-cols-3">
+                <div data-wow-delay="0.2s" class="wow fadeInUp w-full h-full flex flex-col bg-stone-50 rounded-[32px] p-12 items-start hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all cursor-pointer" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <img src="./Nexhyte-files/feature-1.svg" class="mb-4">
+                    <div class="mb-4 text-3xl font-semibold text-left text-black">Ease of use</div>
+                    <div class="text-lg font-normal text-left text-black ">
+                        We pride ourselves in the experience our platform offers to end users. Our design experts have
+                        gone through thousands of iterations to simplify and abstract the complexity to promote
+                        usability and adoption.
+                    </div>
+                </div>
+
+                <div data-wow-delay="0.2s" class="wow fadeInUp w-full h-full flex flex-col bg-stone-50 rounded-[32px] p-12 items-start hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all cursor-pointer" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <img src="./Nexhyte-files/feature-2.svg" class="mb-4">
+                    <div class="mb-4 text-3xl font-semibold text-left text-black">Ease of licensing</div>
+                    <div class="text-lg font-normal text-left text-black ">
+                        Enterprise software is often easier to buy but notoriously difficult to adopt because of
+                        licensing constrains. At Nexhyte, we aim to make buying and adopting software easy by
+                        licensing the platform per application in scope.</div>
+                </div>
+
+                <div data-wow-delay="0.2s" class="wow fadeInUp w-full h-full flex flex-col bg-stone-50 rounded-[32px] p-12 items-start hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all cursor-pointer" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <img src="./Nexhyte-files/feature-3.svg" class="mb-4">
+                    <div class="mb-4 text-3xl font-semibold text-left text-black">Industry agnostic</div>
+                    <div class="text-lg font-normal text-left text-black ">
+                        Customer Experience is every organization’s necessity and as long as your organization requires software
+                        to fuel it’s businesses, we remain hugely relevant in enabling productivity.</div>
+                </div>
+            </div>
+
+            <div class="grid items-center w-full grid-cols-1 gap-6 xl:grid-cols-3">
+                <div data-wow-delay="0.4s" class="wow fadeInUp w-full h-full flex flex-col bg-stone-50 rounded-[32px] p-12 items-start hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all cursor-pointer" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                    <img src="./Nexhyte-files/feature-4.svg" class="mb-4">
+                    <div class="mb-4 text-3xl font-semibold text-left text-black">Analytics</div>
+                    <div class="text-lg font-normal text-left text-black ">
+                        In the fast-paced digital landscape, understanding customer interactions and optimizing engagement strategies are crucial for businesses. Nexhyte’s Virtual Agent goes beyond standard customer service functionalities by offering robust analytics capabilities that provide actionable insights into user behavior and operational performance.</div>
+                </div>
+
+                <div data-wow-delay="0.4s" class="wow fadeInUp w-full h-full flex flex-col bg-stone-50 rounded-[32px] p-12 items-start hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all cursor-pointer" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                    <img src="./Nexhyte-files/feature-5.svg" class="mb-4">
+                    <div class="mb-4 text-3xl font-semibold text-left text-black">CRM Integrations</div>
+                    <div class="text-lg font-normal text-left text-black ">
+                        Integrating the chatbot with Customer Relationship Management (CRM) systems, such as Salesforce, HubSpot, or Zoho, enables businesses to maintain a 360-degree view of their customers.
+                    </div>
+                </div>
+
+                <div data-wow-delay="0.4s" class="wow fadeInUp w-full h-full flex flex-col bg-stone-50 rounded-[32px] p-12 items-start hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all cursor-pointer" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                    <img src="./Nexhyte-files/feature-6.svg" class="mb-4">
+                    <div class="mb-4 text-3xl font-semibold text-left text-black">Been there, done that</div>
+                    <div class="text-lg font-normal text-left text-black ">
+                        Our core team comprises of leaders who have scaled great heights across engineering, testing and
+                        operations over the past two decades. The Nexhyte platform is a culmination of our collective
+                        experience.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 xl:flex flex-col xl:items-center">
+  <div class="container">
+    <div class="text-center">
+      <div class="text-black text-sm xl:text-xl font-medium leading-normal tracking-[3px] mb-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+        INDUSTRY CHALLENGES
+      </div>
+      <div class="text-center text-primary xl:text-6xl text-4xl font-medium leading-tight wow fadeInUp" style="visibility: hidden; animation-name: none;">
+        Why is CX a <br class="sm:block hidden">
+        Challenge ?
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray w-full py-16 xl:mt-32 mt-16">
+    <div class="container">
+      <div class="grid grid-cols-1 xl:grid-cols-5 gap-8 xl:gap-16 w-full items-center">
+        <div class="xl:col-span-3 relative">
+          <div class="absolute xl:flex hidden top-0 -left-10 w-[30px] h-[45%] p-2.5 rounded-[55px] flex-col justify-center items-center gap-2.5" style="
+              background: linear-gradient(180deg, #fff0fa 0%, #ffecf4 100%);
+            ">
+            <div class="origin-top-left -rotate-90 text-center text-pink-600 text-sm font-bold font-nunito leading-none mx-auto mt-[14.5dvh]">
+              ENGINEERING
+            </div>
+          </div>
+          <div class="absolute xl:flex hidden bottom-0 -left-10 w-[30px] h-[45%] p-2.5 rounded-[55px] flex-col justify-center items-center gap-2.5" style="
+              background: linear-gradient(180deg, #e9fffa 0%, #cbfae9 100%);
+            ">
+            <div class="origin-top-left -rotate-90 text-center text-green-700 text-sm font-bold font-nunito leading-none mx-auto mt-[14.5dvh]">
+              OPERATIONS
+            </div>
+          </div>
+          <div class="accordion px-8">
+            <div class="accordion-head py-4 border-b border-black border-opacity-10 flex w-full justify-between gap-x-4 xl:items-center text-neutral-400 cursor-pointer">
+              <div class="text-xl xl:text-2xl font-medium">1. Design</div>
+              <i class="fa-solid fa-plus toggle-icon"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="w-full text-stone-900 text-lg pt-6 px-6">
+                Systems are plagued with unvalidated architecture, operational
+                flaws with unknown failure points and inherent weaknesses.<br>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion px-8">
+            <div class="accordion-head py-4 border-b border-black border-opacity-10 flex w-full justify-between gap-x-4 xl:items-center text-neutral-400 cursor-pointer">
+              <div class="text-xl xl:text-2xl font-medium">2. Code</div>
+              <i class="fa-solid fa-plus toggle-icon"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="w-full text-stone-900 text-lg pt-6 px-6">
+                Code is usually developed with a focus on functionality and not
+                always keeping Reliability and Customer Experience in focus.
+                This is hampered due to lack of deep and early
+                performance/observable insights during development.<br>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion px-8">
+            <div class="accordion-head py-4 border-b border-black border-opacity-10 flex w-full justify-between gap-x-4 xl:items-center text-neutral-400 cursor-pointer">
+              <div class="text-xl xl:text-2xl font-medium">3. Testing</div>
+              <i class="fa-solid fa-plus toggle-icon"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="w-full text-stone-900 text-lg pt-6 px-6">
+                Testing is complex, silo’d and heavily skills dependent making
+                it slow and expensive without achieving the right outcome. It is
+                seen as a cost center rather than a quality center.<br>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion px-8">
+            <div class="accordion-head py-4 border-b border-black border-opacity-10 flex w-full justify-between gap-x-4 xl:items-center text-neutral-400 cursor-pointer">
+              <div class="text-xl xl:text-2xl font-medium">4. Release</div>
+              <i class="fa-solid fa-plus toggle-icon"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="w-full text-stone-900 text-lg pt-6 px-6">
+                Customer Experience and Systems stability do not influence
+                release cadence causing an imbalance between velocity and
+                stability.<br>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion px-8">
+            <div class="accordion-head py-4 border-b border-black border-opacity-10 flex w-full justify-between gap-x-4 xl:items-center text-neutral-400 cursor-pointer">
+              <div class="text-xl xl:text-2xl font-medium">
+                5. Observability
+              </div>
+              <i class="fa-solid fa-plus toggle-icon"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="w-full text-stone-900 text-lg pt-6 px-6">
+                Observability is not comprehensive and reactive in nature
+                leading to unmeasured undercurrents impacting customer
+                experience consistently.<br>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion px-8">
+            <div class="accordion-head py-4 border-b border-black border-opacity-10 flex w-full justify-between gap-x-4 xl:items-center text-neutral-400 cursor-pointer">
+              <div class="text-xl xl:text-2xl font-medium">
+                6. Incident response
+              </div>
+              <i class="fa-solid fa-plus toggle-icon"></i>
+            </div>
+            <div class="accordion-body">
+              <div class="w-full text-stone-900 text-lg pt-6 px-6">
+                Incident Response is reactive in nature due to lack of proper
+                knowledge management to address incidents swiftly either
+                manually or through auto-remediation.<br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="xl:col-span-2 h-full">
+          <img src="./Nexhyte-files/accordion.jpeg" class="rounded-[36px] h-full w-full object-cover">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 xl:flex xl:items-center" id="about">
+  <div class="container">
+    <div class="text-center">
+      <div class="text-black text-sm xl:text-xl font-medium leading-normal tracking-[3px] mb-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+        DECADES OF EXPERTISE IN A PLATFORM
+      </div>
+      <div class="text-center text-primary xl:text-6xl text-4xl font-medium leading-tight wow fadeInUp" style="visibility: hidden; animation-name: none;">
+        About us
+      </div>
+
+      <div class="w-full xl:w-4/5 mx-auto">
+        <img src="./Nexhyte-files/about.png" class="mx-auto w-full rounded-[35px] my-20 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+
+        <div class="text-black text-center text-lg font-normal wow fadeInUp" style="visibility: hidden; animation-name: none;">
+          We are a global company with offices in
+          <span class="text-primary font-bold">Singapore, San Jose</span> and
+          <span class="text-primary font-bold">Mumbai</span>. <br><br>
+          Our core team comprises business and engineering leads who have been
+          <span class="text-primary mr-1.5">Champion Engineers</span> for the
+          better part of the last two decades.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="xl:min-h-screen !bg-no-repeat !bg-right relative py-16 xl:flex xl:items-center">
+    <div class="container">
+
+        <div class="text-center">
+            <div class="text-black text-sm xl:text-xl font-medium  leading-normal tracking-[3px] mb-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                WIZARDS OF
+                RELIABILITY
+            </div>
+            <div class="text-4xl font-medium leading-tight text-center text-primary xl:text-6xl wow fadeInUp" style="visibility: hidden; animation-name: none;">Meet the
+                Founders
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-full gap-8 mt-20 xl:flex-row h-fit">
+                <a href="https://www.linkedin.com/in/rajeevvasisht/" target="_blank">
+
+                    </a><div class="flex flex-col items-center xl:justify-end w-fit wow fadeInUp h-fit group" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><a href="https://www.linkedin.com/in/nyamathshaik/" target="_blank">
+                        <img src="./Nexhyte-files/team-1.png" alt="" class="rounded-[35px] mb-8 max-h-[600px] transition-all hover:transition-all group-hover:grayscale grayscale-0">
+                        <div class="text-2xl font-semibold text-black">Nyamath Shaik</div>
+                        <div class="mb-5 text-xl font-medium text-primary">CEO &amp; Co-founder</div>
+
+                        <i class="text-3xl text-black transition-all fa-brands fa-linkedin hover:transition-all hover:text-primary"></i>
+                </a>
+            </div>
+
+            <div class="flex flex-col items-center xl:justify-start w-fit wow fadeInUp h-fit group" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                <a href="https://www.linkedin.com/in/alhena-minhaz/" target="_blank">
+
+                    <img src="./Nexhyte-files/team-2.png" alt="" class="rounded-[35px] mb-8 max-h-[600px] transition-all hover:transition-all group-hover:grayscale grayscale-0">
+
+                    <div class="text-2xl font-semibold text-black">Alhena Minhaz</div>
+                    <div class="mb-5 text-xl font-medium text-primary">CMO &amp; Co-founder</div>
+
+                    <i class="text-3xl text-black transition-all fa-brands fa-linkedin hover:transition-all hover:text-primary"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</section>
+    <section class="relative py-16 xl:flex xl:items-center" id="contact">
+  <div class="container">
+    <div class="w-full relative h-full rounded-[48px] xl:p-12 xl:py-16 p-8 xl:my-20 flex xl:gap-20 gap-8 flex-col xl:flex-row items-center" style="
+        background: linear-gradient(
+          180deg,
+          rgba(223, 204, 226, 0.15) 29.8%,
+          #dbcbdd 127.5%
+        );
+      ">
+      <div class="w-full xl:w-1/4 hidden xl:flex shrink-0 wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+        <img src="./Nexhyte-files/contact.png">
+      </div>
+      <div class="w-full xl:w-3/4">
+        <div class="text-black text-3xl xl:text-5xl font-semibold mb-6 xl:mb-12 leading-tight">
+          Your Enterprise Reliability
+          <br class="sm:block hidden">
+          Starts Here
+        </div>
+
+        <!-- 
+                <div class="text-black text-3xl font-medium leading-10 mb-4">Book a Demo</div>
+
+                <form class="contactform" method="post" action="https://us-central1-Nexhyte-site.cloudfunctions.net/addMessage">
+                    <div class="grid grid-cols-2 w-full gap-8 xl:gap-x-16 xl:gap-y-8">
+                        <div>
+                            <input type="text" name="firstName" placeholder="First Name *" class="input validate" required />
+                        </div>
+                        <div>
+                            <input type="text" name="lastName" placeholder="Last Name *" class="input validate" required />
+                        </div>
+                        <div class="col-span-2">
+                            <input type="email" name="email" placeholder="Your Work Email *" class="input validate" required />
+                        </div>
+                        <div class="col-span-2">
+                            <textarea name="message" placeholder="Your Message *" class="input validate" required rows="2"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="flex mt-10 bg-black text-white py-3 px-7 text-sm font-semibold items-center text-center rounded-xl w-fit gap-2 hover:bg-opacity-80 hover:transition-all transition-all duration-300 hover:duration-300">
+                        <span>Send Message</span>
+                    </button>
+                    <div class="output_message text-black mt-4"></div>
+                </form> 
+                -->
+
+        <!-- manual demo booking -->
+        <div class="text-black text-xl xl:text-3xl font-medium xl:leading-[3rem] leading-10">
+          To book a demo, please reach out to us at <br>
+          <a href="mailto:nyamath@nexhyte.com">
+            <h1 class="text-primary hover:text-[#F31474]">
+              nyamath@nexhyte.com
+            </h1>
+          </a>
+          with your name, work email and a brief message.
+        </div>
+      </div>
+      <img src="./Nexhyte-files/robot.svg" class="absolute -top-16 -right-4 xl:block hidden shake-y z-10">
+    </div>
+  </div>
+</section>
+
+    <section class="!bg-no-repeat !bg-right relative py-16 xl:flex xl:items-center" id="resources">
+    <div class="container">
+
+        <div class="text-center  xl:pb-16">
+            <div class="text-black text-sm xl:text-xl font-medium  leading-normal tracking-[3px] mb-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">KNOW
+                MORE
+            </div>
+            <div class="text-center text-primary xl:text-6xl text-4xl font-medium leading-tight wow fadeInUp" style="visibility: hidden; animation-name: none;">Resources
+            </div>
+
+            <div class="flex gap-8 w-full xl:flex-row flex-col justify-center items-center mt-20">
+                <a href="https://www.linkedin.com/company/Nexhyte-software-inc/posts/?feedView=all" target="_blank" class="w-fit flex gap-6  items-center h-full bg-gray rounded-[32px] p-8 hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <img src="./Nexhyte-files/blog.svg" class="xl:w-full max-w-[35px]">
+                    <div class="text-black text-lg xl:text-2xl font-semibold ">Posts</div>
+                </a>
+                <a href="https://help.Nexhyte.us/" class="w-fit flex items-ce gap-6 items-center h-full bg-gray rounded-[32px] p-8 hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                    <img src="./Nexhyte-files/documentation.svg" class="xl:w-full max-w-[35px]">
+                    <div class="text-black text-lg xl:text-2xl font-semibold ">Documentation</div>
+                </a>
+
+            </div>
+
+            <div class="flex gap-8 w-full xl:flex-row flex-col justify-center items-center mt-8">
+                <!-- <a href="#"
+                    class="w-fit flex ite gap-6 items-center h-full bg-gray rounded-[32px] p-8 hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all wow fadeInUp"
+                    data-wow-delay="0.6s">
+                    <img src="./assets/img/policies.svg" class="xl:w-full max-w-[35px]" />
+                    <div class="text-black text-lg xl:text-2xl font-semibold ">Policies</div>
+                </a> -->
+                <!-- <a href="#"
+                    class="w-fit flex gap-6  items-center h-full bg-gray rounded-[32px] p-8 hover:bg-primary hover:bg-opacity-20 transition-all hover:transition-all wow fadeInUp"
+                    data-wow-delay="0.8s">
+                    <img src="./assets/img/eula.svg" class="xl:w-full max-w-[35px]" />
+                    <div class="text-black text-lg xl:text-2xl font-semibold ">EULA</div>
+                </a> -->
+            </div>
+        </div>
+    </div>
+</section>
+    <div id="modal" class="fixed inset-0 flex items-center justify-center hidden z-[999999] px-4">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="bg-white p-6 rounded-2xl shadow-lg z-[1000] w-full lg:max-w-[1280px] h-[90dvh] overflow-hidden">
+    <div class="flex items-center justify-between w-full gap-4 pb-6 border-b border-b-zinc-100">
+      <h2 class="flex items-center text-2xl font-medium leading-tight text-left text-primary xl:text-4xl">
+        <img src="./Nexhyte-files/offer-4.svg" class="mr-2 grayscale"> AI Driven
+        ChatBot
+      </h2>
+
+      <button id="closeModal" class="text-gray-500 hover:text-gray-700 focus:outline-none">
+        <svg class="w-6 h-6 lg:h-10 lg:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="mt-4">
+      <article class="text-black text-lg font-normal text-left md:p-5 mx-auto !p-0 max-h-[70vh] overflow-y-auto scrollbar !pr-2">
+        <section>
+          <h2>1. Chat Widget: Seamless Customer Interaction Interface</h2>
+          <p>
+            The Chat Widget is the front-facing interface that allows users to interact with the chatbot. Embedded directly into websites, mobile apps, or other digital platforms, it provides customers with an easy, intuitive way to get help, ask questions, or make inquiries.
+          </p>
+          <p>
+            Customizable Design: The widget can be tailored to match your brand’s look and feel, ensuring a seamless integration with your digital presence.
+          </p>
+		  <p>
+		  Omni-channel Support: Whether on a website, mobile app, or social media platforms, the chat widget ensures a unified customer experience.
+		  </p>
+		  <p>
+		  Real-Time Interaction: Responds instantly to customer queries, providing immediate assistance and guiding users through processes like troubleshooting or purchasing.
+		  </p>
+		  <p>
+		  24/7 Availability: Ensures that customers can reach out anytime, reducing the need for round-the-clock human support.
+		  </p>
+        </section>
+
+        <section>
+          <h2>Requirements</h2>
+          <p>
+            Sometimes, the requirements for the software being developed and the
+            test assets needed to support them are unclear or continually
+            changing. This ambiguity makes it challenging to create accurate
+            test cases and maintain real-time test coverage. Managing multiple
+            sources of requirements and methodologies further complicates
+            alignment and tracing between Requirements and Test Assets.
+          </p>
+        </section>
+
+        <section>
+          <h2>Time Constraints</h2>
+          <p>
+            Pressure to release software quickly often leads to insufficient
+            time for thorough testing.
+          </p>
+        </section>
+
+        <section>
+          <h2>Resource Constraints</h2>
+          <p>
+            Limited resources, including skilled testers and testing
+            environments, can hinder effective testing.
+          </p>
+        </section>
+
+        <section>
+          <h2>Early Insights</h2>
+          <p>
+            Insights into customer experience (CX), functionality, and
+            performance are crucial for releasing software with confidence.
+            However, this data is often unavailable during testing and only
+            discovered in production.
+          </p>
+        </section>
+
+        <section>
+          <h2>Regression Testing</h2>
+          <p>
+            Ensuring that new changes do not break existing functionality can be
+            time-consuming, especially in large systems.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data Management</h2>
+          <p>
+            Managing test data, especially in scenarios requiring associated
+            conditions, can be difficult.
+          </p>
+        </section>
+
+        <section>
+          <h2>Collaboration</h2>
+          <p>
+            Sharing existing assets between teams poses challenges without
+            risking the integrity of current test assets. Reusing automation
+            isn't feasible in many cases.
+          </p>
+        </section>
+
+        <section>
+          <h2>Leveraging Existing Assets</h2>
+          <p>
+            Integrating all existing and historical test assets into a single
+            platform without extensive customization is challenging.
+          </p>
+        </section>
+
+        <section>
+          <h2>Automated Testing Challenges</h2>
+          <p>
+            While automated testing can save time, setting up and maintaining
+            automated test suites can be complex and time-consuming.
+          </p>
+        </section>
+
+        <section>
+          <h2>Legacy Applications</h2>
+          <p>
+            Testing legacy applications without costly software investments
+            remains a challenge, as automation efforts often remain siloed.
+          </p>
+        </section>
+
+        <section>
+          <h2>Performance Testing</h2>
+          <p>
+            Ensuring software can handle expected loads and perform efficiently
+            is complex.
+          </p>
+        </section>
+
+        <section>
+          <h2>Mobile and Cross-Browser Testing</h2>
+          <p>
+            Testing across various mobile devices and web browsers adds
+            complexity.
+          </p>
+        </section>
+
+        <section>
+          <h2>Complex Software Architectures</h2>
+          <p>
+            As software systems become more complex, testing all possible
+            scenarios becomes harder.
+          </p>
+        </section>
+
+        <section>
+          <h2>Maker-Checker Concept</h2>
+          <p>
+            Implementing a common layer for two different teams to test and
+            verify is challenging without a common platform or frameworks.
+          </p>
+        </section>
+
+        <section>
+          <h2>Test Maintenance</h2>
+          <p>
+            As software evolves, tests need to be updated, requiring significant
+            coding efforts for automation scripts.
+          </p>
+        </section>
+
+        <section>
+          <h2>Communication</h2>
+          <p>
+            Effective communication among development, testing, and business
+            teams is crucial but challenging, particularly in large
+            organizations.
+          </p>
+        </section>
+
+        <section>
+          <h2>Test Automation ROI</h2>
+          <p>
+            Determining the return on investment for test automation and
+            justifying costs can be challenging.
+          </p>
+        </section>
+
+        <section>
+          <h2>Nexhyte's Autonomous BotFlows</h2>
+          <p>
+            Understanding these challenges is pivotal to appreciating the
+            significance of Nexhyte's Autonomous BotFlows module.
+            This module aims to address these issues and elevate the
+            effectiveness of software testing in enterprise environments.
+          </p>
+          <p>
+            Nexhyte Autonomous BotFlows is a No Code platform that
+            caters to all testing needs, addressing the challenges mentioned
+            above. It requires no coding skills and is utilized by various
+            personas such as Developers, Business Analysts, Manual Testers,
+            Automation Testers, and Business Users.
+          </p>
+          <p>
+            Nexhyte facilitates comprehensive test coverage, complete
+            traceability with requirements, easy automation and maintenance of
+            test assets, early insights into test outcomes, auto-healing for
+            application changes, complete defect management with integrations,
+            test cycle planning, and comprehensive insights. All of these
+            features are aligned with industry best practices and delivered
+            through a user-friendly interface for an exceptional user
+            experience.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact Us</h2>
+          <p>
+            To learn more about how large enterprises globally leverage
+            Nexhyte Software’s Autonomous BotFlows capability and
+            the outcomes they derive, please don't hesitate to reach out to us.
+          </p>
+          <p>
+            Whether you're interested in scheduling a demo, discussing case
+            studies, or exploring customized solutions tailored to your specific
+            needs, we're here to help. Contact us today to start the
+            conversation and discover how Nexhyte's Autonomous Functional
+            Testing can revolutionize your software testing processes.
+          </p>
+          <p>
+            Email:
+            <a href="mailto:nyamath@nexhyte.com" class="text-[#F31474] hover:underline">nyamath@nexhyte.com</a>
+          </p>
+          <p>
+            We look forward to hearing from you and showcasing how Nexhyte's
+            Autonomous BotFlows can empower your enterprise to achieve
+            excellence in software quality assurance and meet the Software
+            Reliability goals.
+          </p>
+        </section>
+      </article>
+    </div>
+  </div>
+</div>
+
+    <div id="modal-2" class="fixed inset-0 flex items-center justify-center hidden z-[999999] px-4">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="bg-white p-6 rounded-2xl shadow-lg z-[1000] w-full lg:max-w-[1280px] h-[90dvh] overflow-hidden">
+    <div class="flex justify-between gap-4 w-full items-center border-b border-b-zinc-100 pb-6">
+      <h2 class="text-left text-primary xl:text-4xl text-2xl font-medium leading-tight flex items-center">
+        <img src="./Nexhyte-files/offer-3.svg" class="mr-2 grayscale"> Bot Flows
+      </h2>
+
+      <button id="closeModal" class="text-gray-500 hover:text-gray-700 focus:outline-none">
+        <svg class="lg:h-10 lg:w-10 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="mt-4">
+      <article class="text-black text-lg font-normal text-left md:p-5 mx-auto !p-0 max-h-[70vh] overflow-y-auto scrollbar !pr-2">
+        <section>
+          <h2>Introduction</h2>
+          <p>
+            Intent Management plays a crucial role in ensuring software reliability
+            within the enterprise landscape. However, this critical domain
+            presents several distinct challenges, particularly in large
+            enterprises. As we explore Nexhyte's Intent Management module, it's
+            essential to delve into these specific and technical issues that
+            often arise in Intent Management.
+          </p>
+        </section>
+
+        <section>
+          <h2>API Versioning and Compatibility</h2>
+          <p>
+            Ensuring API backward compatibility while accommodating evolving
+            changes can be complex. Managing compatibility without disrupting
+            existing integrations is crucial but challenging.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data Variability and Consistency</h2>
+          <p>
+            Testing APIs involves handling diverse data formats and structures.
+            Guaranteeing data consistency and validity across different APIs can
+            be intricate.
+          </p>
+        </section>
+
+        <section>
+          <h2>Skill Dependency for Coding and Scripting</h2>
+          <p>
+            Effective Intent Management frequently demands coding and scripting
+            skills. Testing teams often struggle with the technical expertise
+            required to create and maintain test scripts.
+          </p>
+        </section>
+
+        <section>
+          <h2>Impact of Technicality on Testing Activity</h2>
+          <p>
+            The highly technical nature of Intent Management can be daunting for
+            testers. It requires a deep understanding of HTTP methods, status
+            codes, request headers, and response structures, among other
+            technical aspects.
+          </p>
+        </section>
+
+        <section>
+          <h2>Testing Chained APIs</h2>
+          <p>
+            Testing APIs that rely on a sequence of chained calls introduces
+            complexity. Verifying data flow and interactions between multiple
+            APIs can be challenging, potentially leading to issues in data
+            synchronization.
+          </p>
+        </section>
+
+        <section>
+          <h2>Parameterized Code and Environment Understanding</h2>
+          <p>
+            APIs often require parameterized code to adapt to different
+            environments. Testers must possess a thorough understanding of the
+            target environment, including configuration, authentication, and
+            authorization requirements, to effectively test parameterized code.
+          </p>
+        </section>
+
+        <section>
+          <h2>Validating API Responses</h2>
+          <p>
+            During Intent Management, validating the accuracy and integrity of API
+            responses is essential. This involves verifying data correctness,
+            status codes, and adherence to expected behavior.
+          </p>
+        </section>
+
+        <section>
+          <h2>Impact on Test Coverage</h2>
+          <p>
+            The technicality of Intent Management often impacts test coverage. Testers
+            must ensure all API endpoints, parameters, and error scenarios are
+            adequately covered.
+          </p>
+        </section>
+
+        <section>
+          <h2>Nexhyte's Intent Management</h2>
+          <p>
+            By addressing these challenges, Nexhyte's Intent Management module
+            provides comprehensive solutions to enhance the efficiency and
+            effectiveness of Intent Management in enterprise environments. With our
+            innovative approach and completely no-code platform, organizations
+            can overcome these hurdles and ensure the reliability of their APIs,
+            thereby strengthening their overall software quality assurance
+            processes.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact Us</h2>
+          <p>
+            To learn more about how large enterprises globally leverage
+            Nexhyte Software’s Intent Management capability and the outcomes they
+            derive, please don't hesitate to reach out to us.
+          </p>
+          <p>
+            Whether you're interested in scheduling a demo, discussing case
+            studies, or exploring customized solutions tailored to your specific
+            needs, we're here to help. Contact us today to start the
+            conversation and discover how Nexhyte's Intent Management can
+            revolutionize your software testing processes.
+          </p>
+          <p>
+            Email:
+            <a href="mailto:nyamath@nexhyte.com" class="text-[#F31474] hover:underline">nyamath@nexhyte.com</a>
+          </p>
+          <p>
+            We look forward to hearing from you and showcasing how Nexhyte's
+            Intent Management can empower your enterprise to achieve excellence in
+            software quality assurance and meet the Software Reliability goals.
+          </p>
+        </section>
+      </article>
+    </div>
+  </div>
+</div>
+
+    <div id="modal-3" class="fixed inset-0 flex items-center justify-center hidden z-[999999] px-4">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="bg-white p-6 rounded-2xl shadow-lg z-[1000] w-full lg:max-w-[1280px] h-[90dvh] overflow-hidden">
+    <div class="flex justify-between gap-4 w-full items-center border-b border-b-zinc-100 pb-6">
+      <h2 class="text-left text-primary xl:text-4xl text-2xl font-medium leading-tight flex items-center">
+        <img src="./Nexhyte-files/offer-5.svg" class="mr-2 grayscale"> AI
+        Engineering
+      </h2>
+
+      <button id="closeModal" class="text-gray-500 hover:text-gray-700 focus:outline-none">
+        <svg class="lg:h-10 lg:w-10 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="mt-4">
+      <article class="text-black text-lg font-normal text-left md:p-5 mx-auto !p-0 max-h-[70vh] overflow-y-auto scrollbar !pr-2">
+        <section>
+          <h2>Background</h2>
+          <p>
+            The founding team of Nexhyte comprises seasoned practitioners of
+            AI Engineering, boasting extensive experience in working with
+            very large enterprises. The platform is derived from their wealth of
+            experience, having onboarded hundreds of mission-critical
+            applications over the past few years.
+          </p>
+        </section>
+
+        <section>
+          <h2>Introduction</h2>
+          <p>
+            In the complex landscape of modern enterprises, the need for AI
+            Engineering cannot be overstated. AI Engineering offers a
+            proactive approach to identifying weaknesses and vulnerabilities
+            within systems before they lead to catastrophic failures. This
+            detailed exploration delves into the critical importance of AI
+            Engineering in addressing various challenges faced by enterprises,
+            followed by an examination of how Nexhyte, a leading solution in
+            this field, offers effective strategies to mitigate these
+            challenges.
+          </p>
+        </section>
+
+        <section>
+          <h2>Challenges Faced by Enterprises</h2>
+          <ul>
+            <li>Unpredictable System Behavior</li>
+            <li>Lack of Resilience Testing</li>
+            <li>Reactive Problem Resolution</li>
+            <li>Inadequate Disaster Recovery</li>
+            <li>Poor Resource Allocation</li>
+            <li>Limited Understanding of System Behavior</li>
+            <li>Reduced Innovation and Risk Aversion</li>
+            <li>Increased Downtime</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>
+            How Nexhyte Software Helps Enterprises with AI Engineering
+          </h2>
+          <ul>
+            <li>Automate AI Experiments with Zero-Code using Nexhyte</li>
+            <li>
+              Choose over 180 out of the box scenarios that pan across Virtual
+              Machine, Kubernetes, AWS, Azure, and GCP (Beta)
+            </li>
+            <li>Simulate across different applications and journeys</li>
+            <li>Create a Reliability hypothesis to measure the outcomes</li>
+            <li>Bring in your business journeys under test</li>
+            <li>Take actionable observations</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Conclusion</h2>
+          <p>
+            In conclusion, AI Engineering is not merely an option but a
+            necessity for enterprises striving to thrive in today's dynamic
+            business environment. Nexhyte's comprehensive approach to AI
+            Engineering, coupled with its user-friendly interface and extensive
+            feature set, offers a transformative solution to mitigate risks,
+            foster innovation, and build resilient systems capable of
+            withstanding the unpredictable challenges of the digital age. With
+            Nexhyte, enterprises can embark on a journey towards proactive
+            resilience, ensuring business continuity and maintaining a
+            competitive edge in an increasingly volatile landscape.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact Us</h2>
+          <p>
+            To learn more about how large enterprises globally utilize
+            Nexhyte Software's AI Engineering capability and the outcomes
+            they derive, please don't hesitate to reach out to us.
+          </p>
+          <p>
+            Whether you're interested in scheduling a demo, discussing case
+            studies, or exploring customized solutions tailored to your specific
+            needs, we're here to help. Contact us today to start the
+            conversation and discover how Nexhyte Software can empower your
+            enterprise to thrive in today's dynamic business landscape.
+          </p>
+          <p>
+            Email:
+            <a href="mailto:nyamath@nexhyte.com" class="text-[#F31474] hover:underline">nyamath@nexhyte.com</a>
+          </p>
+          <p>
+            We look forward to hearing from you and exploring the possibilities
+            of AI Engineering together.
+          </p>
+        </section>
+      </article>
+    </div>
+  </div>
+</div>
+
+    <div id="modal-4" class="fixed inset-0 flex items-center justify-center hidden z-[999999] px-4">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="bg-white p-6 rounded-2xl shadow-lg z-[1000] w-full lg:max-w-[1280px] h-[90dvh] overflow-hidden">
+    <div class="flex justify-between gap-4 w-full items-center border-b border-b-zinc-100 pb-6">
+      <h2 class="text-left text-primary xl:text-4xl text-2xl font-medium leading-tight flex items-center">
+        <img src="./Nexhyte-files/offer-6.svg" class="mr-2 grayscale"> SLO
+        Management
+      </h2>
+
+      <button id="closeModal" class="text-gray-500 hover:text-gray-700 focus:outline-none">
+        <svg class="lg:h-10 lg:w-10 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="mt-4">
+      <article class="text-black text-lg font-normal text-left md:p-5 mx-auto !p-0 max-h-[70vh] overflow-y-auto scrollbar !pr-2">
+        <section>
+          <h2>Embarking on the SRE Journey Based on SLO</h2>
+          <p>
+            Embarking on the Site Reliability Engineering (SRE) journey based on
+            Service Level Objectives (SLO) is a strategic approach aimed at
+            enhancing the reliability and performance of software systems. This
+            journey revolves around setting clear objectives, defining outcomes,
+            understanding constraints, following a structured methodology, and
+            continuously assessing and improving the reliability of systems.
+          </p>
+        </section>
+
+        <section>
+          <h2>Objectives Commonly Sought After Through SLO</h2>
+          <ul>
+            <li>
+              Deliver a superior customer experience aligned with business
+              objectives.
+            </li>
+            <li>Balance velocity and reliability.</li>
+            <li>Proactively avoid major incidents.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Outcomes</h2>
+          <ul>
+            <li>
+              Reliability objectives are not defined beyond "availability."
+            </li>
+            <li>
+              Observability is reactive, driven by health rules, and cumbersome
+              to manage.
+            </li>
+            <li>
+              Observability data is complex and not harnessed to measure
+              reliability across objectives.
+            </li>
+            <li>Lack of continuous measurement.</li>
+            <li>
+              Undercurrents are not apparent until they become an incident.
+            </li>
+            <li>Lack of essential data and questionable data quality.</li>
+            <li>Islands of data.</li>
+            <li>Cost of obtaining data.</li>
+            <li>
+              Little to no feedback loop from Operations to Engineering/Dev.
+            </li>
+            <li>
+              Change/Release Management does not factor in day-to-day
+              reliability issues (Undercurrents).
+            </li>
+            <li>Determining sensitivity to change/release.</li>
+            <li>
+              Decision on change/release is largely manual and toil-intensive.
+            </li>
+            <li>Tracing reliability chronology is a challenge.</li>
+            <li>Evolving tech landscape.</li>
+            <li>
+              Lock-in risk (ability to switch between Observability vendors).
+            </li>
+            <li>
+              Lack of a recommendation engine to help with focus areas and path
+              to a target state.
+            </li>
+            <li>Lack of prediction of future state.</li>
+            <li>AI-based operations (AIOps) remain theoretical.</li>
+          </ul>
+        </section>
+
+        <section>
+          <p>
+            By addressing these challenges and following a structured
+            methodology, organizations can effectively navigate the SRE journey
+            based on SLOs, ensuring the reliability and performance of their
+            software systems.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact Us</h2>
+          <p>
+            To discover more about how large enterprises worldwide leverage
+            Nexhyte Software's CRM Integrations capability and the outcomes
+            they achieve, feel free to connect with us.
+          </p>
+          <p>
+            Whether you're interested in scheduling a demonstration, delving
+            into case studies, or exploring tailored solutions aligned with your
+            specific requirements, we're here to assist you. Get in touch with
+            us today to initiate the dialogue and uncover how Nexhyte
+            Software can empower your enterprise to excel in the ever-evolving
+            business landscape.
+          </p>
+          <p>
+            Email:
+            <a href="mailto:nyamath@nexhyte.com" class="text-[#F31474] hover:underline">nyamath@nexhyte.com</a>
+          </p>
+          <p>
+            We eagerly anticipate hearing from you and embarking on the journey
+            of CRM Integrations together.
+          </p>
+        </section>
+      </article>
+    </div>
+  </div>
+</div>
+
+
+</main>
+
+<footer class="bg-gray">
+    <div class="container">
+        <div class="grid grid-cols-1 gap-8 py-12 border-b xl:py-20 xl:grid-cols-4 border-stone-200">
+            <div>
+                <div class="mt-4 text-base font-semibold text-zinc-800 xl:text-lg font-nunito">The World's first Conventional AI
+                    Chatbot.</div>
+            </div>
+
+            <div class="flex flex-col items-start gap-2 xl:gap-8 ">
+                <div class="mb-2 text-xl font-semibold text-black xl:text-2xl font-nunito">Important links</div>
+                <div class="flex flex-col space-y-4 text-lg font-normal text-black font-nunito xl:text-xl">
+                    <a href="https://www.Nexhyte.us/index.html" class="transition-all hover:transition-all hover:text-primary hover:underline">Home</a>
+                    <a href="https://www.Nexhyte.us/#platform" class="transition-all hover:transition-all hover:text-primary hover:underline">Platform</a>
+                    <a href="https://www.Nexhyte.us/#coming-soon" class="transition-all hover:transition-all hover:text-primary hover:underline">Roadmap</a>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-start gap-2 xl:gap-8 ">
+                <div class="mb-2 text-xl font-semibold text-black xl:text-2xl font-nunito">About us</div>
+                <div class="flex flex-col space-y-4 text-lg font-normal text-black font-nunito xl:text-xl">
+                    <a href="https://www.Nexhyte.us/privacy-policy.html" class="transition-all hover:transition-all hover:text-primary hover:underline">Privacy
+                        Policy</a>
+                    <a href="https://www.Nexhyte.us/terms-and-conditions.html" class="transition-all hover:transition-all hover:text-primary hover:underline">Terms of
+                        Service</a>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-start gap-2 xl:gap-8 ">
+                <div class="mb-2 text-xl font-semibold text-black xl:text-2xl font-nunito">Contact us</div>
+                <div class="flex flex-col space-y-4 text-lg font-normal text-black font-nunito xl:text-xl">
+                    <a href="mailto:nyamath@nexhyte.com" class="flex items-center gap-4"><i class="fa-regular fa-envelope"></i>
+                        <div class="text-lg font-normal text-primary xl:text-xl hover:underline">nyamath@nexhyte.com
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="flex items-start gap-8 py-8 font-nunito">
+            <div>
+                <div class="mb-2 text-xl font-bold">
+                    <div class="mb-6 text-lg font-semibold text-black xl:text-2xl">Our Addresses</div>
+                </div>
+                <div class="flex flex-col space-y-4 text-sm">
+                    <div class="flex items-start justify-start gap-4">
+                        <img src="./Nexhyte-files/singapore-flag.svg" alt="flag">
+                        <span class="text-sm font-normal text-zinc-800 xl:text-base ">#02-01 38 Maxwell Road Singapore
+                            069116.
+
+                        </span>
+                    </div>
+                    <div class="flex items-start justify-start gap-4">
+
+                        <img src="./Nexhyte-files/usa-flag.svg" alt="flag">
+                        <span class="text-sm font-normal text-zinc-800 xl:text-base ">2033 Gateway Place, Suite 500 San
+                            Jose, CA
+                            95110.</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-6 bg-gray-dark">
+        <div class="container">
+            <div class="flex flex-col justify-between w-full gap-4 lg:flex-row">
+                <div class="text-sm font-normal text-black ">© 2024 Nexhyte Software</div>
+                <div class="text-xs text-black">
+                    Powered By
+                    <a href="http://nexhyte.com/" target="_blank"><span class="esperia"> nexhyte</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+<div id="move-to-top" style="display: flex;">
+    <div class="w-14 h-28 px-3 rounded-[41px] border border-zinc-800 flex-col justify-center items-center inline-flex bg-white">
+        <i class="fa-solid fa-angles-up text-[#C9156C]"></i>
+    </div>
+</div>
+
+<script src="./Nexhyte-files/1.jquery.min.js.download"></script>
+<script src="./Nexhyte-files/3.magnific-popup.js.download"></script>
+<script src="./Nexhyte-files/4.swiper-bundle.min.js.download"></script>
+<script src="./Nexhyte-files/5.wow.js.download"></script>
+<script src="./Nexhyte-files/6.plyr.js.download"></script>
+<script src="./Nexhyte-files/6.video-popup.js.download"></script>
+<script src="./Nexhyte-files/main.js.download"></script>
+<script src="./Nexhyte-files/aos.js.download"></script>
+<script type="text/javascript" src="./Nexhyte-files/jquery-migrate-1.2.1.min.js.download"></script>
+<script src="./Nexhyte-files/owl.carousel.min.js.download" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            items: 1,
+            loop: true,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 10000,
+        });
+
+    });
+</script>
+
+
+</body></html>
