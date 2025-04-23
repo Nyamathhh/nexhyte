@@ -12,7 +12,7 @@
 		<meta content="https://uploads-ssl.webflow.com/6270d95d4a91f2f4c042dfbf/630e2a72cd2186e8d354c397_cover.png" property="twitter:image">
 		<meta property="og:type" content="website">
 		<meta content="summary_large_image" name="twitter:card">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 		<meta content="Webflow" name="generator">
 		<link href="./Career_files/normalize.css" rel="stylesheet" type="text/css">
 		<link href="./Career_files/webflow.css" rel="stylesheet" type="text/css">
@@ -38,6 +38,55 @@
 		</script>
 		<link href="https://corzent.com/Career_files/favicon.png" rel="shortcut icon" type="image/x-icon">
 		<link href="https://corzent.com/Career_files/webclip.png" rel="apple-touch-icon">
+		<style>
+			@media screen and (max-width: 767px) {
+				.vacancy-hero-wrapper {
+					flex-direction: column;
+				}
+				.vacancy-hero-left {
+					width: 100% !important;
+					margin-bottom: 30px;
+				}
+				.vacancy-hero-image {
+					width: 100% !important;
+				}
+				.vacancy-hero-image img {
+					width: 100%;
+					max-width: 100%;
+					height: auto;
+				}
+				.footer-content-area {
+					flex-wrap: wrap;
+				}
+				.footer-content-block {
+					width: 50%;
+					margin-bottom: 15px;
+				}
+				.footer-up {
+					flex-direction: column;
+				}
+				.footer-site-map-area {
+					width: 100%;
+					margin-top: 20px;
+				}
+				.footer-social-block {
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.wrapper {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				.vacancy-hero-heading {
+					font-size: 28px;
+					line-height: 1.3;
+				}
+				.button {
+					width: 100%;
+					text-align: center;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<div class="main-navigations-container">
@@ -233,11 +282,11 @@
 		<script>
 			document
 				.getElementById("whatsapp-link-footer")
-				.addEventListener("click", function (e) {
+				?.addEventListener("click", function (e) {
 					e.preventDefault();
-					const phoneNumber = "+1234567890";
+					const phoneNumber = "918019373704";
 					const message =
-						"Hi Ara, We have a requirement we would like to chat to you about - can we book in for a short call?";
+						"Hi Nyamath, We have a requirement we would like to chat to you about - can we book in for a short call?";
 					const whatsappUrl = `https://wa.me/${phoneNumber.replace(
 						/\D/g,
 						""
