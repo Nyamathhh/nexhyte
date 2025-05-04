@@ -5,6 +5,7 @@
 		<title>Contact</title>
 		<meta content="Product engineering simplified" name="description">
 		<meta content="Contact" property="og:title">
+		<meta content="NexHyte" property="og:site_name">
 		<meta content="Product engineering simplified" property="og:description">
 		<meta content="https://uploads-ssl.webflow.com/6270d95d4a91f2f4c042dfbf/630e2a72cd2186e8d354c397_cover.png" property="og:image">
 		<meta content="Contact" property="twitter:title">
@@ -220,6 +221,30 @@
                     gap: 15px !important;
                     align-items: center !important;
                 }
+                
+                /* Contact card mobile styles */
+                .key-contact-card {
+                    flex-direction: column !important;
+                    text-align: center;
+                    padding: 25px 15px !important;
+                }
+                
+                .key-contact-image {
+                    margin-bottom: 20px;
+                }
+                
+                .key-contact-wrapper {
+                    margin-left: 0 !important;
+                }
+                
+                .contact-hero-wrapper {
+                    padding: 20px 15px !important;
+                }
+                
+                .contact-information-area {
+                    margin-top: 30px;
+                    padding: 20px 15px !important;
+                }
             }
             
             /* For smaller mobile devices */
@@ -227,6 +252,15 @@
                 .display-heading {
                     font-size: 42px !important;
                     line-height: 50px !important;
+                }
+                
+                .key-contact-heading-2 {
+                    font-size: 1.3rem !important;
+                }
+                
+                .key-contact-link, .button.small.w-button {
+                    width: 100%;
+                    justify-content: center;
                 }
             }
             
@@ -393,83 +427,113 @@
 			<div class="section-bg-element" style="position: absolute; top: -50px; right: -50px; width: 200px; height: 200px; border-radius: 50%; background: rgba(52, 152, 219, 0.05); z-index: 0;"></div>
 			<div class="section-bg-element" style="position: absolute; bottom: -80px; left: -80px; width: 300px; height: 300px; border-radius: 50%; background: rgba(52, 152, 219, 0.07); z-index: 0;"></div>
 			
-			<div class="wrapper contact-hero-wrapper" style="position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 3px 1% 8px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px;">
-				<div class="contact-hero-right home-3-flex-link-item animated fade-in delay-2" style="position: relative; z-index: 1; flex: 1; min-width: 300px;">
-					<!-- Decorative elements with enhanced styling -->
-					<div style="position: absolute; top: -30px; right: -30px; width: 120px; height: 120px; border-radius: 50%; background: radial-gradient(circle, rgba(52, 152, 219, 0.2) 0%, rgba(52, 152, 219, 0.05) 70%); z-index: -1;"></div>
-					<div style="position: absolute; bottom: -20px; left: -20px; width: 80px; height: 80px; border-radius: 50%; background: radial-gradient(circle, rgba(52, 152, 219, 0.2) 0%, rgba(52, 152, 219, 0.05) 70%); z-index: -1;"></div>
+			<div class="wrapper contact-hero-wrapper" style="position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 40px 20px; display: flex; flex-direction: column;">
+				
+				<!-- Mobile-optimized contact section -->
+				<div style="width: 100%; display: flex; flex-direction: column; gap: 30px;">
 					
-					<div class="key-contact-card" style="background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.08); border: 1px solid rgba(240,240,240,0.9); padding: 35px; display: flex; align-items: center; transition: all 0.4s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,0.1)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.08)';">
-						<img src="./Contact_files/nya-img.png" loading="lazy" alt="" class="key-contact-image" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 4px solid rgba(240, 240, 240, 0.8); box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
-						<div class="key-contact-wrapper" style="margin-left: 25px;">
-							<div class="key-contact-heading" style="color: #3498db; font-size: 0.9rem; font-weight: 600; margin-bottom: 8px; letter-spacing: 0.5px; text-transform: uppercase;">Key Contact</div>
-							<div class="key-contact-heading-2" style="font-size: 1.5rem; font-weight: 700; color: #262633; margin-bottom: 5px; background: linear-gradient(120deg, #262633 0%, #555555 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">Nyamath Shaik</div>
-							<div class="key-contact-subheading-2" style="font-size: 1rem; color: #666; margin-bottom: 15px;">Co-founder & CEO</div>
-							<a href="https://www.linkedin.com/in/nyamathshaik" class="key-contact-link" target="_blank" style="color: #555555; font-size: 0.95rem; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; background: rgba(52, 152, 219, 0.1); padding: 8px 16px; border-radius: 20px; transition: all 0.3s ease; margin-bottom: 15px;" onmouseover="this.style.backgroundColor='rgba(52, 152, 219, 0.2)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.backgroundColor='rgba(52, 152, 219, 0.1)'; this.style.transform='translateY(0)';">
-								<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
-									<path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									<path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									<path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-								</svg>
-								Connect on LinkedIn
-							</a>
-							<a href="#" class="button small w-button" style="display: inline-block; background: linear-gradient(120deg, #3498db, #2980b9); color: white; padding: 12px 25px; border-radius: 12px; text-decoration: none; font-weight: 600; letter-spacing: 0.5px; transition: all 0.4s ease; border: none; cursor: pointer; box-shadow: 0 8px 20px rgba(52, 152, 219, 0.2);" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nyamathshaik-nexyte/discovery'});return false;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 25px rgba(52, 152, 219, 0.3)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(52, 152, 219, 0.2)';">
-								<span style="display: flex; align-items: center; justify-content: center;">
-									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;">
-										<path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M16 2V6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M8 2V6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M3 10H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									Schedule a call
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="contact-hero-left" style="flex: 1; min-width: 300px;">
-					<div class="contact-hero-left-inside">
-						
-						<div data-w-id="92628ab7-0160-c022-56a2-aef597fd769b" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); padding: 25px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid rgba(240,240,240,0.9);" class="contact-information-area animated fade-in delay-2">
-							<div class="contact-email up" style="display: flex; align-items: center; margin-bottom: 20px; padding: 15px; border-radius: 10px; background: linear-gradient(120deg, rgba(255,255,255,0.9), rgba(255,255,255,1)); box-shadow: 0 5px 15px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.06)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.03)';">
-								<div style="width: 42px; height: 42px; border-radius: 50%; background-color: rgba(52, 152, 219, 0.1); display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-									<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M22 6L12 13L2 6" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-								<div class="contact-email-right">
-									<div class="contact-email-heading" style="font-size: 0.85rem; color: #666; margin-bottom: 5px;">E-mail</div>
-									<a href="mailto:nyamath@nexhyte.com" class="contact-email-link" style="font-size: 1.05rem; color: #262633; text-decoration: none; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.color='#3498db';" onmouseout="this.style.color='#262633';"><strong class="bold-text">nyamath@nexhyte.com</strong></a>
-					</div>
-				</div>
-							<div class="contact-email" style="display: flex; align-items: center; margin-bottom: 20px; padding: 15px; border-radius: 10px; background: linear-gradient(120deg, rgba(255,255,255,0.9), rgba(255,255,255,1)); box-shadow: 0 5px 15px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.06)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.03)';">
-								<div style="width: 42px; height: 42px; border-radius: 50%; background-color: rgba(52, 152, 219, 0.1); display: flex; align-items: center; justify-content: center; margin-right: 15px;">
-									<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M22 16.9201V19.9201C22.0011 20.1986 21.9441 20.4743 21.8325 20.7294C21.7209 20.9846 21.5573 21.2137 21.3521 21.402C21.1468 21.5902 20.9046 21.7336 20.6407 21.8228C20.3769 21.912 20.0974 21.9452 19.82 21.9201C16.7428 21.5857 13.787 20.5342 11.19 18.8501C8.77382 17.3148 6.72533 15.2663 5.18999 12.8501C3.49997 10.2413 2.44824 7.27109 2.11999 4.1801C2.095 3.90356 2.12787 3.62486 2.21649 3.36172C2.30512 3.09859 2.44756 2.85679 2.63476 2.65172C2.82196 2.44665 3.0498 2.28281 3.30379 2.17062C3.55777 2.05843 3.83233 2.00027 4.10999 2.0001H7.10999C7.5953 1.99532 8.06579 2.16718 8.43376 2.48363C8.80173 2.80008 9.04207 3.23954 9.10999 3.7201C9.23662 4.68016 9.47144 5.62282 9.80999 6.5301C9.94454 6.88802 9.97366 7.27701 9.8939 7.65098C9.81415 8.02494 9.62886 8.36821 9.35999 8.6401L8.08999 9.9101C9.51355 12.4136 11.5864 14.4865 14.09 15.9101L15.36 14.6401C15.6319 14.3712 15.9751 14.1859 16.3491 14.1062C16.7231 14.0264 17.1121 14.0556 17.47 14.1901C18.3773 14.5286 19.3199 14.7634 20.28 14.8901C20.7658 14.9586 21.2094 15.2033 21.5265 15.5776C21.8437 15.9519 22.0122 16.4296 22 16.9201Z" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-								</div>
-								<div class="contact-email-right">
-									<div class="contact-email-heading" style="font-size: 0.85rem; color: #666; margin-bottom: 5px;">Phone</div>
-									<div style="display: flex; align-items: center;">
-										<img src="./Contact_files/WhatsappLogoThin.svg" loading="lazy" alt="" style="width: 18px; height: 18px; margin-right: 8px;">
-										<a id="whatsapp-link" class="contact-email-link" style="font-size: 1.05rem; color: #262633; text-decoration: none; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.color='#3498db';" onmouseout="this.style.color='#262633';"><strong class="bold-text-2">+91 8019373704</strong></a>
+					<!-- Contact Card - Mobile Optimized -->
+					<div class="contact-card-container" style="width: 100%; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.08); border: 1px solid rgba(240,240,240,0.9); padding: 30px 20px; margin-bottom: 20px;">
+						<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+							<img src="./Contact_files/nya-img.png" loading="lazy" alt="Nyamath Shaik" class="key-contact-image" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 4px solid rgba(240, 240, 240, 0.8); box-shadow: 0 5px 15px rgba(0,0,0,0.08); margin-bottom: 20px;">
+							
+							<div class="key-contact-content" style="width: 100%;">
+								<div class="key-contact-heading" style="color: #3498db; font-size: 0.9rem; font-weight: 600; margin-bottom: 8px; letter-spacing: 0.5px; text-transform: uppercase;">Key Contact</div>
+								<div class="key-contact-heading-2" style="font-size: 1.5rem; font-weight: 700; color: #262633; margin-bottom: 5px; background: linear-gradient(120deg, #262633 0%, #555555 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">Nyamath Shaik</div>
+								<div class="key-contact-subheading-2" style="font-size: 1rem; color: #666; margin-bottom: 20px;">Co-founder & CEO</div>
+								
+								<!-- Contact Info Added -->
+								<div class="contact-info-direct" style="display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 350px; margin: 0 auto 25px;">
+									<!-- Email -->
+									<div style="display: flex; align-items: center; justify-content: center; gap: 10px; background-color: rgba(52, 152, 219, 0.05); padding: 12px 15px; border-radius: 10px;">
+										<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: #3498db; flex-shrink: 0;">
+											<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+										<a href="mailto:nyamath@nexhyte.com" style="font-size: 1rem; color: #262633; text-decoration: none; font-weight: 600; word-break: break-word; text-align: center;">nyamath@nexhyte.com</a>
+									</div>
+									
+									<!-- Phone -->
+									<div style="display: flex; align-items: center; justify-content: center; gap: 10px; background-color: rgba(52, 152, 219, 0.05); padding: 12px 15px; border-radius: 10px;">
+										<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: #3498db; flex-shrink: 0;">
+											<path d="M22 16.9201V19.9201C22.0011 20.1986 21.9441 20.4743 21.8325 20.7294C21.7209 20.9846 21.5573 21.2137 21.3521 21.402C21.1468 21.5902 20.9046 21.7336 20.6407 21.8228C20.3769 21.912 20.0974 21.9452 19.82 21.9201C16.7428 21.5857 13.787 20.5342 11.19 18.8501C8.77382 17.3148 6.72533 15.2663 5.18999 12.8501C3.49997 10.2413 2.44824 7.27109 2.11999 4.1801C2.095 3.90356 2.12787 3.62486 2.21649 3.36172C2.30512 3.09859 2.44756 2.85679 2.63476 2.65172C2.82196 2.44665 3.0498 2.28281 3.30379 2.17062C3.55777 2.05843 3.83233 2.00027 4.10999 2.0001H7.10999C7.5953 1.99532 8.06579 2.16718 8.43376 2.48363C8.80173 2.80008 9.04207 3.23954 9.10999 3.7201C9.23662 4.68016 9.47144 5.62282 9.80999 6.5301C9.94454 6.88802 9.97366 7.27701 9.8939 7.65098C9.81415 8.02494 9.62886 8.36821 9.35999 8.6401L8.08999 9.9101C9.51355 12.4136 11.5864 14.4865 14.09 15.9101L15.36 14.6401C15.6319 14.3712 15.9751 14.1859 16.3491 14.1062C16.7231 14.0264 17.1121 14.0556 17.47 14.1901C18.3773 14.5286 19.3199 14.7634 20.28 14.8901C20.7658 14.9586 21.2094 15.2033 21.5265 15.5776C21.8437 15.9519 22.0122 16.4296 22 16.9201Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+										<div style="display: flex; align-items: center; justify-content: center;">
+											<img src="./Contact_files/WhatsappLogoThin.svg" loading="lazy" alt="" style="width: 16px; height: 16px; margin-right: 8px;">
+											<a id="key-contact-whatsapp-link" style="font-size: 1rem; color: #262633; text-decoration: none; font-weight: 600; cursor: pointer;">+91 8019373704</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="hide-web-mode" style="margin-left: 15px; font-size: 0.85rem; color: #666; display: flex; align-items: center;">
-								<span style="display: inline-flex; align-items: center;">
-									<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px; color: #3498db;">
-										<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M9 9H9.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-										<path d="M15 9H15.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-									</svg>
-									No bots, you talk to real people 😇
-								</span>
+								
+								<div class="contact-buttons" style="display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 350px; margin: 0 auto;">
+									<a href="https://www.linkedin.com/in/nyamathshaik" class="key-contact-link" target="_blank" style="color: #555555; font-size: 0.95rem; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center; background: rgba(52, 152, 219, 0.1); padding: 12px 20px; border-radius: 20px; transition: all 0.3s ease; width: 100%;">
+										<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
+											<path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+										Connect on LinkedIn
+									</a>
+									<a href="#" class="schedule-call-button" style="display: flex; align-items: center; justify-content: center; background: linear-gradient(120deg, #3498db, #2980b9); color: white; padding: 12px 20px; border-radius: 12px; text-decoration: none; font-weight: 600; letter-spacing: 0.5px; transition: all 0.3s ease; border: none; cursor: pointer; box-shadow: 0 8px 20px rgba(52, 152, 219, 0.2); width: 100%;" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nyamathshaik-nexyte/discovery'});return false;">
+										<svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;">
+											<path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M16 2V6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M8 2V6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+											<path d="M3 10H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+										Schedule a call
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+					
+					<!-- Contact Information - Mobile Optimized -->
+					<!-- <div class="contact-information-container" style="width: 100%; background: rgba(255,255,255,0.8); backdrop-filter: blur(10px); border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid rgba(240,240,240,0.9); padding: 30px 20px;">
+						<div class="contact-email-item" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 15px; border-radius: 10px; background: linear-gradient(120deg, rgba(255,255,255,0.9), rgba(255,255,255,1)); box-shadow: 0 5px 15px rgba(0,0,0,0.03);">
+							<div style="min-width: 42px; height: 42px; border-radius: 50%; background-color: rgba(52, 152, 219, 0.1); display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M22 6L12 13L2 6" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+							<div style="flex: 1;">
+								<div style="font-size: 0.85rem; color: #666; margin-bottom: 5px;">E-mail</div>
+								<a href="mailto:nyamath@nexhyte.com" style="font-size: 1.05rem; color: #262633; text-decoration: none; font-weight: 600; word-break: break-word;">
+									<strong>nyamath@nexhyte.com</strong>
+								</a>
+							</div>
+						</div>
+						
+						<div class="contact-phone-item" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 15px; border-radius: 10px; background: linear-gradient(120deg, rgba(255,255,255,0.9), rgba(255,255,255,1)); box-shadow: 0 5px 15px rgba(0,0,0,0.03);">
+							<div style="min-width: 42px; height: 42px; border-radius: 50%; background-color: rgba(52, 152, 219, 0.1); display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22 16.9201V19.9201C22.0011 20.1986 21.9441 20.4743 21.8325 20.7294C21.7209 20.9846 21.5573 21.2137 21.3521 21.402C21.1468 21.5902 20.9046 21.7336 20.6407 21.8228C20.3769 21.912 20.0974 21.9452 19.82 21.9201C16.7428 21.5857 13.787 20.5342 11.19 18.8501C8.77382 17.3148 6.72533 15.2663 5.18999 12.8501C3.49997 10.2413 2.44824 7.27109 2.11999 4.1801C2.095 3.90356 2.12787 3.62486 2.21649 3.36172C2.30512 3.09859 2.44756 2.85679 2.63476 2.65172C2.82196 2.44665 3.0498 2.28281 3.30379 2.17062C3.55777 2.05843 3.83233 2.00027 4.10999 2.0001H7.10999C7.5953 1.99532 8.06579 2.16718 8.43376 2.48363C8.80173 2.80008 9.04207 3.23954 9.10999 3.7201C9.23662 4.68016 9.47144 5.62282 9.80999 6.5301C9.94454 6.88802 9.97366 7.27701 9.8939 7.65098C9.81415 8.02494 9.62886 8.36821 9.35999 8.6401L8.08999 9.9101C9.51355 12.4136 11.5864 14.4865 14.09 15.9101L15.36 14.6401C15.6319 14.3712 15.9751 14.1859 16.3491 14.1062C16.7231 14.0264 17.1121 14.0556 17.47 14.1901C18.3773 14.5286 19.3199 14.7634 20.28 14.8901C20.7658 14.9586 21.2094 15.2033 21.5265 15.5776C21.8437 15.9519 22.0122 16.4296 22 16.9201Z" stroke="#3498db" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</div>
+							<div style="flex: 1;">
+								<div style="font-size: 0.85rem; color: #666; margin-bottom: 5px;">Phone</div>
+								<div style="display: flex; align-items: center;">
+									<img src="./Contact_files/WhatsappLogoThin.svg" loading="lazy" alt="" style="width: 18px; height: 18px; margin-right: 8px;">
+									<a id="whatsapp-link" style="font-size: 1.05rem; color: #262633; text-decoration: none; font-weight: 600; cursor: pointer;">
+										<strong>+91 8019373704</strong>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						<div style="padding-left: 15px; font-size: 0.85rem; color: #666; display: flex; align-items: center;">
+							<span style="display: inline-flex; align-items: center;">
+								<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px; color: #3498db;">
+									<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M9 9H9.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M15 9H15.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								No bots, you talk to real people 😇
+							</span>
+						</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -586,7 +650,7 @@
 		<script src="./Contact_files/jquery-3.5.1.min.dc5e7f18c8.js.download" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 		<script>
 			// WhatsApp click handler
-			const links = document.querySelectorAll('[id^="whatsapp-link"]');
+			const links = document.querySelectorAll('[id^="whatsapp-link"], #key-contact-whatsapp-link');
 
 			links.forEach(function(link) {
 				link.addEventListener("click", function(e) {
